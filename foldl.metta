@@ -1,3 +1,5 @@
+; (: foldl (-> (-> Grounded Grounded Grounded) Experession Grounded))
+
 (= (foldl $func $expr)
     (if (== $expr ())
         $expr
